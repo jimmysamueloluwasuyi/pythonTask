@@ -1,7 +1,7 @@
 def calculate_wage(deliveries):
-    if deliveries < 50:
+    if deliveries <= 59:
         return deliveries * 160 + 5000
-    elif deliveries <= 59:
+    elif deliveries < 50:
         return deliveries * 200 + 5000
     elif deliveries <= 69:
         return deliveries * 250 + 5000
